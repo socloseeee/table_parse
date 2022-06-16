@@ -202,6 +202,10 @@ def budget():
     return int(budget)
 
 
-if __name__ == "__main__":
+def main():
     parse_table()
     algorythm(budget(), city())
+    
+
+if __name__ == "__main__":
+    main()
